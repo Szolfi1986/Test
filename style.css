@@ -1,0 +1,69 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*background-image: url(image/image1.jpg);*/
+    background-color: darkseagreen;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center;
+    direction: rtl;
+    color:#fff;
+}
+.header{
+    text-align: center;
+    border: 2px solid #796c7d;
+}
+.excersice{
+    text-align: right;
+    line-height: 25px;
+    width: 30%;
+}
+.listexcersice{
+    list-style-position: inside;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.listexcersice li{
+    padding: 5px;
+    border-bottom: 2px blue dotted;
+    margin-right: 5px;
+    margin-left: 5px;}
+a img{
+    vertical-align: bottom; 
+    visibility: hidden;
+}
+.listexcersice > li > a:hover img{
+    visibility: visible ;
+}
+li a{
+    text-decoration: none;
+    color: rgba(20, 19, 19, 0.815);
+}
+li a:hover{
+    padding: 8px;
+    transition: all 0.3s;
+}
+.Reception{
+    width: 50%;
+    margin: 0 auto;
+}
+table {
+    width: 100%;
+}
+td label{
+   width: 25%; 
+}
+input{
+    width: 80%;
+    border-radius: 5px;
+    padding: 5px;
+}
+#man,#woman,#color,#passsave{
+    width: 35px;
+}
+.actionbutton{
+    border-radius:5px;
+    background-color: cadetblue;
+    width: 80px;
+}

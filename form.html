@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="Icon" href="image/OneDrive.ico">
+    <title>فرم ثبت نام</title>
+</head>
+<body>
+    <div class="header">
+        <nav class="excersice">
+            <ul class="listexcersice">
+                <li>                    
+                    <a href="index.html" target="_blank"><img src="image/heart.ico" width="15px"> صفحه اصلی </a>
+                </li>
+                <li>                    
+                    <a href="#" target="_blank"><img src="image/heart.ico" width="15px">دوره های آموزشی</a>
+                </li>
+                <!-- ul>li*4>{like $} -->
+                <li>                     
+                    <a href="form.html" target="_blank"><img src="image/heart.ico" width="15px"> ثبت نام</a>
+                </li>
+                <li>                    
+                    <a href="#" target="_blank"><img src="image/heart.ico" width="15px">درباره ما </a>
+                </li>
+                <li>                     
+                    <a href="#" target="_blank"><img src="image/heart.ico" width="15px">تماس با ما</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="Reception">
+        <form action="form.html" method="get">
+        <fieldset>
+            <legend> فرم ثبت نام </legend>
+            <table id="table">
+                <tr>
+                    <td><label for="name"> نام : </label></td>
+                    <td><input id="name" name="name" type="text" placeholder="نام" required autofocuse></td>
+                </tr>
+                <tr>
+                    <td><label for="family"> نام خانوادگی :</label></td>
+                    <td><input id="family" name="family" type="text" placeholder="نام خانوادگی"required></td>
+                </tr>
+                <tr>
+                    <td><label for="Email"> Email : </label></td>
+                    <td><input id="Email" name="Email" type="Email" placeholder="ABC@DEF.GHI"></td>
+                </tr>
+                <tr>
+                    <td><label for="Age"> سن :</label></td>
+                    <td><input id="Age" name="age" type="number" required></td>
+                </tr>
+                <tr>
+                    <td><label for="sex">جنسیت :</label></td>
+                    <td>
+                        <label for="man"> مرد </label> 
+                        <input id="man" name="gender" type="radio" >
+                        <label for="woman"> زن </label> 
+                        <input id="woman" name="gender" type="radio" >
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="length"> قد :</label></td>
+                    <td>0<input id="length" name="yourlength" type="range" min="0" max="300" step="10">300</td>
+                </tr>
+                <tr>
+                    <td><label for="color"> رنگ مورد علاقه :</label></td>
+                    <td><input id="color" name="yourfavoritecolor" type="color"></td>
+                </tr>
+                <tr>
+                    <td><label for="pass">رمز عبور :</label></td>
+                    <td><input id="pass" name="password" type="password" placeholder="حداقل 6 کرکتر وارد کنید" minlength="6"></td>
+                </tr>
+                <tr>
+                    <td><label for="passsave">ذخیره رمز عبور </label></td>
+                    <td><input id="passsave" name="passsave" value="yes" type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td><label for="picture"> تصویر پروفایل :</label></td>
+                    <td><input id="picture" type="file"></td>
+                </tr>
+                <tr>
+                    <td><label for="date"> تاریخ شروع فعالیت:</label></td>
+                    <td><input id="date" type="date"></td>
+                </tr>
+                <tr>
+                    <td><label for="WebSite"> آدرس وب سایت :</label></td>
+                    <td><input id="WebSite" type="url"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>عملیات ها</legend>
+            <input class="actionbutton" name="Reset" type="reset" value="clear">
+            <input class="actionbutton" name="Send" type="submit" value="Send">
+
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>
